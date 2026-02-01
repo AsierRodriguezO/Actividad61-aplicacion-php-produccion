@@ -19,6 +19,12 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t asierrodriguezo/actividad61-aplicacion-php-produccion:latest .
+
       - name: Login to DockerHub
         uses: docker/login-action@v3
         with:
