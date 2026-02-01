@@ -33,3 +33,4 @@ Accede a la aplicación en http://tu-ip-publica (por ejemplo, http://3.83.140.15
 phpMyAdmin en http://tu-ip-publica:8080
 
 
+aaa
